@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MMHC Newsletter – YouTube Channel Launch</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400&family=Work+Sans:wght@400;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400&family=Work+Sans:wght@400;600;700&family=Roboto:wght@500&display=swap');
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -56,11 +56,16 @@
     background: #ffffff; text-align: center; padding: 28px 40px 8px;
   }
   .yt-header-inner {
-    display: inline-flex; align-items: center; gap: 12px; justify-content: center;
+    display: inline-flex; align-items: baseline; gap: 0; justify-content: center;
   }
   .yt-header-text {
     font-family: 'Work Sans', sans-serif; font-size: 26px; font-style: italic;
     color: #000000; line-height: 1.3;
+  }
+  .yt-wordmark {
+    font-family: 'Roboto', Arial, sans-serif; font-size: 26px; font-weight: 500;
+    font-style: normal; color: #282828; letter-spacing: -0.5px;
+    padding: 0 6px;
   }
 
   /* ─── Video Thumbnail Card ─── */
@@ -204,24 +209,10 @@
   <!-- SPACER -->
   <div class="spacer"></div>
 
-  <!-- YOUTUBE SECTION HEADER — YouTube wordmark logo -->
+  <!-- YOUTUBE SECTION HEADER — YouTube wordmark in text -->
   <div class="yt-header">
     <div class="yt-header-inner">
-      <span class="yt-header-text">From Our</span>
-      <!-- Official YouTube wordmark (full logo with icon) -->
-      <svg height="28" viewBox="0 0 90 20" xmlns="http://www.w3.org/2000/svg">
-        <g>
-          <!-- YouTube icon -->
-          <path d="M27.973 0C27.973 0 14.028 0 10.468.94A5.1 5.1 0 0 0 6.88 4.53C5.94 8.09 5.94 15.47 5.94 15.47s0 3.59.94 5.15a5.1 5.1 0 0 0 3.588 3.59c3.56.94 17.505.94 17.505.94s13.945 0 17.505-.94a5.1 5.1 0 0 0 3.588-3.59c.94-3.56.94-10.94.94-10.94s0-7.38-.94-10.94A5.1 5.1 0 0 0 45.478.94C41.918 0 27.973 0 27.973 0z" fill="none"/>
-          <!-- Red rounded rect -->
-          <rect x="0" y="0" width="28" height="20" rx="4" fill="#FF0000"/>
-          <!-- Play triangle -->
-          <polygon points="11,5 11,15 20,10" fill="#FFFFFF"/>
-          <!-- YouTube text -->
-          <path d="M34.2 13.94V3.06h2.14l2.53 7.76 2.51-7.76h2.14v10.88h-1.32V5.26l-2.78 8.68h-1.22l-2.78-8.66v8.66H34.2zm13.2-1.78c0 .56.12.97.37 1.22.25.25.61.38 1.08.38.47 0 .83-.13 1.08-.38.25-.25.37-.66.37-1.22V5.84c0-.56-.12-.97-.37-1.22-.25-.25-.61-.38-1.08-.38-.47 0-.83.13-1.08.38-.25.25-.37.66-.37 1.22v6.32zm-1.38.16V5.68c0-.87.26-1.56.77-2.06.52-.5 1.2-.76 2.06-.76.86 0 1.54.25 2.06.76.51.5.77 1.19.77 2.06v6.64c0 .87-.26 1.56-.77 2.06-.52.5-1.2.76-2.06.76-.86 0-1.54-.25-2.06-.76-.51-.5-.77-1.19-.77-2.06zm8.06-6.48V3.06h6.38v2.78h-2.5v8.1h-1.38v-8.1h-2.5zm7.76 0V3.06h1.38v3.56l2.78-3.56h1.64l-2.92 3.62 3.06 7.26h-1.58l-2.38-5.8-.6.72v5.08h-1.38V5.84zm7.98 4.64h2.64v1.68c0 .56-.12.97-.37 1.22-.25.25-.61.38-1.08.38-.47 0-.83-.13-1.08-.38-.25-.25-.37-.66-.37-1.22V5.84c0-.56.12-.97.37-1.22.25-.25.61-.38 1.08-.38.47 0 .83.13 1.08.38.25.25.37.66.37 1.22V8.4h-2.64v-2.5c0-.87.26-1.56.77-2.06.52-.5 1.2-.76 2.06-.76.86 0 1.54.25 2.06.76.51.5.77 1.19.77 2.06v6.32c0 .87-.26 1.56-.77 2.06-.52.5-1.2.76-2.06.76-.86 0-1.54-.25-2.06-.76-.51-.5-.77-1.19-.77-2.06v-2.18z" fill="#282828" transform="translate(0,0)"/>
-        </g>
-      </svg>
-      <span class="yt-header-text">Channel</span>
+      <span class="yt-header-text">From Our </span><span class="yt-wordmark">YouTube</span><span class="yt-header-text"> Channel</span>
     </div>
   </div>
 
